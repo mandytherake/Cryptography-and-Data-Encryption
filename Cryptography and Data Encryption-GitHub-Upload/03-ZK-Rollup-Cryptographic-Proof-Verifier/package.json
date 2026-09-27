@@ -1,0 +1,19 @@
+{
+  "name": "zk-rollup-proof-verifier",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "demo": "hardhat run scripts/demo.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "circom": "^0.5.46",
+    "circomlib": "^2.0.0",
+    "circomlibjs": "^0.1.0",
+    "hardhat": "^2.22.12",
+    "snarkjs": "^0.7.6",
+    "typescript": "^5.6.3"
+  }
+}
